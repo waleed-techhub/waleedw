@@ -1,0 +1,385 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+	.header-text h2 {
+        font-size: 36px;
+    }
+
+    .header-text p {
+        font-size: 16px;
+    }
+
+    .single-about-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .single-about-txt h3,
+    .single-about-txt h2 {
+        font-size: 22px;
+    }
+
+    .single-about-add-info h3 {
+        font-size: 20px;
+    }
+
+    .single-about-add-info p {
+        font-size: 16px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-text h2 {
+        font-size: 36px;
+    }
+
+    .header-text p {
+        font-size: 16px;
+    }
+
+    .single-about-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .single-about-txt h3,
+    .single-about-txt h2 {
+        font-size: 22px;
+    }
+
+    .single-about-add-info h3 {
+        font-size: 20px;
+    }
+
+    .single-about-add-info p {
+        font-size: 16px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header-text h2 {
+        font-size: 48px;
+    }
+
+    .header-text p {
+        font-size: 18px;
+    }
+
+    .single-about-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .single-about-txt h3,
+    .single-about-txt h2 {
+        font-size: 24px;
+    }
+
+    .single-about-add-info h3 {
+        font-size: 22px;
+    }
+
+    .single-about-add-info p {
+        font-size: 18px;
+    }
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .header-text h2 {
+        font-size: 60px;
+    }
+
+    .header-text p {
+        font-size: 20px;
+    }
+
+    .single-about-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .single-about-txt h3,
+    .single-about-txt h2 {
+        font-size: 26px;
+    }
+
+    .single-about-add-info h3 {
+        font-size: 24px;
+    }
+
+    .single-about-add-info p {
+        font-size: 20px;
+    }
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    .single-horizontal-timeline {
+        margin-bottom: 30px;
+    }
+
+    .experience-time h2 {
+        font-size: 20px;
+    }
+
+    .experience-time h3 {
+        font-size: 18px;
+    }
+
+    .timeline-content h4.title,
+    .timeline-content h5 {
+        font-size: 16px;
+    }
+
+    .timeline-content p.description {
+        font-size: 14px;
+    }
+
+    .timeline-horizontal-border {
+        margin-bottom: 10px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-horizontal-timeline {
+        margin-bottom: 30px;
+    }
+
+    .experience-time h2 {
+        font-size: 22px;
+    }
+
+    .experience-time h3 {
+        font-size: 20px;
+    }
+
+    .timeline-content h4.title,
+    .timeline-content h5 {
+        font-size: 18px;
+    }
+
+    .timeline-content p.description {
+        font-size: 16px;
+    }
+
+    .timeline-horizontal-border {
+        margin-bottom: 15px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .single-horizontal-timeline {
+        margin-bottom: 20px;
+    }
+
+    .experience-time h2 {
+        font-size: 24px;
+    }
+
+    .experience-time h3 {
+        font-size: 22px;
+    }
+
+    .timeline-content h4.title,
+    .timeline-content h5 {
+        font-size: 20px;
+    }
+
+    .timeline-content p.description {
+        font-size: 18px;
+    }
+
+    .timeline-horizontal-border {
+        margin-bottom: 20px;
+    }
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .experience-time h2 {
+        font-size: 26px;
+    }
+
+    .experience-time h3 {
+        font-size: 24px;
+    }
+
+    .timeline-content h4.title,
+    .timeline-content h5 {
+        font-size: 22px;
+    }
+
+    .timeline-content p.description {
+        font-size: 20px;
+    }
+
+    .timeline-horizontal-border {
+        margin-bottom: 25px;
+    }
+}
+/* Base styles for all devices */
+.skills, .experience, .profiles, .portfolio {
+    padding: 50px 0;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.experience-time h2, .experience-time h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.experience-time-responsive {
+    display: none;
+}
+
+.timeline-content h4.title {
+    font-size: 22px;
+}
+
+.profile-icon-name {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+/* For tablets (768px to 991px) */
+@media (max-width: 991px) {
+    .experience-time h2 {
+        font-size: 23px;
+    }
+
+    .experience-time h3 {
+        font-size: 22px;
+    }
+
+    .timeline-content h4.title,
+    .timeline-content h5 {
+        font-size: 20px;
+    }
+
+    .timeline-content p.description {
+        font-size: 18px;
+    }
+
+    .timeline-horizontal-border {
+        margin-bottom: 20px;
+    }
+}
+/* Base styles for all devices */
+.skills, .experience, .profiles, .portfolio {
+    padding: 40px 0;
+}
+
+.section-heading h2 {
+    font-size: 34px;
+    margin-bottom: 38px;
+}
+
+.experience-time h2, .experience-time h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.experience-time-responsive {
+    display: none;
+}
+
+.timeline-content h4.title {
+    font-size: 15px;
+}
+
+.profile-icon-name {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* For mobile devices (up to 767px) */
+@media (max-width: 767px) {
+    .col-sm-4, .col-sm-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .profiles-content .single-profile {
+        margin-bottom: 30px;
+    }
+
+    .profiles-content .profile-txt a i {
+        font-size: 30px;
+    }
+
+    .profile-icon-name {
+        font-size: 14px;
+    }
+
+    .experience-time h2 {
+        font-size: 20px;
+    }
+
+    .experience-time h3 {
+        font-size: 18px;
+    }
+
+    .timeline-content h4.title {
+        font-size: 18px;
+    }
+
+    .item img {
+        width: 100%;
+    }
+
+    .portfolio-content .item {
+        margin-bottom: 20px;
+    }
+
+    .section-heading h2 {
+        font-size: 24px;
+    }
+}
+
+/* For very small devices (up to 480px) */
+@media (max-width: 480px) {
+    .section-heading h2 {
+        font-size: 20px;
+    }
+
+    .experience-time h2 {
+        font-size: 18px;
+    }
+
+    .experience-time h3 {
+        font-size: 16px;
+    }
+
+    .timeline-content h4.title {
+        font-size: 16px;
+    }
+
+    .profile-icon-name {
+        font-size: 12px;
+    }
+
+    .profiles-content .profile-txt a i {
+        font-size: 24px;
+    }
+}
